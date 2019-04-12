@@ -19,17 +19,16 @@ html, body {
     position: left;
 }
  */
-.logo img{
+/* .logo img{
     float: left;
     max-width: 50%;
     max-height: 80px;
 }
 
-
+ */
   .nav { 
     background: #000;
     height: 80px; 
-    position:bottom right;
   }
   
   .nav ul {
@@ -37,7 +36,6 @@ html, body {
     list-style: none;
     margin: 0 auto; 
     padding: 0;
-    float: right;
   }
   
   .nav ul li, a {
@@ -46,6 +44,8 @@ html, body {
     height: 80px;
     line-height: 80px; 
     list-style: none;
+    font-size: larger;
+    font-weight: bold;
     padding: 0 10px;
     transition: background .5s; 
   }
@@ -83,7 +83,7 @@ html, body {
 }
 
   .footer {
-      max-height: 100px;
+      max-height: 30px;
       text-align: center;
       font-size: small;
   }
