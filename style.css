@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+    background-size: 100%;
+  }
+
+/* .logo {
+    max-width: 50%;
+    position: left;
+}
+ */
+.logo img{
+    float: left;
+    max-width: 50%;
+    max-height: 80px;
+}
+
+
+  .nav { 
+    background: #000;
+    height: 80px; 
+    position:bottom right;
+  }
+  
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+    float: right;
+  }
+  
+  .nav ul li, a {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s; 
+  }
+  
+  .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+/* .news img{
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+} */
+
+.content {
+    background: url('./images/quarterback.jpg') no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    height: 800px;
+    position: relative;
+/*     z-index: -1; */
+}
+
+.news {
+    padding: 5px 5px;
+    margin: 50px 50px;
+    text-align: center;
+    position: absolute;
+    float: center;
+    background: rgba(60,60,60,0.7);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+  .footer {
+      max-height: 100px;
+      text-align: center;
+      font-size: small;
+  }
